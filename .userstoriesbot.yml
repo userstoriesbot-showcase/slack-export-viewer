@@ -1,0 +1,12 @@
+# Showcase fork only (never part of an upstream pull request).
+version: 1
+app:
+  install: "uv venv --allow-existing && . .venv/bin/activate && uv pip install ."
+  start: ".venv/bin/slack-export-viewer -z demo-export -p {port} -I 0.0.0.0 --no-browser"
+  url: http://localhost:{port}
+  readyPath: /channel/deploys/
+  readyStatus: 200
+  runtime: python
+demo:
+  maxVideos: 1
+  beforePass: true

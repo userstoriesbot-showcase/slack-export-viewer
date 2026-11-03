@@ -1,0 +1,14 @@
+[
+    {
+        "id": "U0DEMO0001",
+        "team_id": "T0DEMO0001",
+        "name": "alice",
+        "deleted": false,
+        "real_name": "Alice Example",
+        "is_bot": false,
+        "profile": {
+            "real_name": "Alice Example",
+            "display_name": "alice"
+        }
+    }
+]

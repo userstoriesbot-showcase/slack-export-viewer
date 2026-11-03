@@ -1,0 +1,26 @@
+[
+    {
+        "type": "message",
+        "user": "U0DEMO0001",
+        "text": "Shipping release 2.4 now, watch for the deploy bot.",
+        "ts": "1762164000.000100"
+    },
+    {
+        "type": "message",
+        "subtype": "bot_message",
+        "bot_id": "B0DEMO0001",
+        "username": "Deploy Bot",
+        "text": "Deploy finished",
+        "ts": "1762164060.000200",
+        "blocks": [
+            {
+                "type": "section",
+                "block_id": "deploy1",
+                "text": {
+                    "type": "mrkdwn",
+                    "text": "Release *2.4* deployed to production. All health checks passed."
+                }
+            }
+        ]
+    }
+]

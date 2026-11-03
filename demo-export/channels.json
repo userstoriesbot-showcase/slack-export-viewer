@@ -1,0 +1,13 @@
+[
+    {
+        "id": "C0DEMO0001",
+        "name": "deploys",
+        "created": "1761900000",
+        "creator": "U0DEMO0001",
+        "is_archived": false,
+        "is_general": true,
+        "members": ["U0DEMO0001"],
+        "topic": {"value": "Deploy notifications", "creator": "U0DEMO0001", "last_set": "0"},
+        "purpose": {"value": "Deploy notifications", "creator": "U0DEMO0001", "last_set": "0"}
+    }
+]
